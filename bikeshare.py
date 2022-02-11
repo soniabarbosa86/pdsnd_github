@@ -169,7 +169,7 @@ def user_stats(df):
     user_types = df['User Type'].value_counts()
     print('Amount of user types: ', user_types)
 
-    """Calculating the amount of genders from the Gender column and using a try statement to handle any errors. In this case Washington does not have Gender"""
+    """Calculating the amount of genders from the Gender column and using a try statement to handle any errors. In this use case, Washington does not have Gender"""
     try:
         print('Amount of genders: ')
         count_genders = df['Gender'].value_counts()
