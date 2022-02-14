@@ -22,7 +22,7 @@ def get_filters():
     while (city not in ['chicago', 'new york city', 'washington']):
                         print('You have selected a city not valid for selection!')
                         city = input('Which city would you like to see? Chicago, New York City or Washington?: ').lower()
-    print('Thank you for your input')
+    print('Thank you for your input!')
 
 
 
